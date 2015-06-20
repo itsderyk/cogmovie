@@ -51,7 +51,7 @@ body {
 /* YouTube player iFrame */
 #ytplayer {
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
   width: 100%;
   height: 210px;
 }
@@ -78,17 +78,16 @@ body {
   display: none; 
 }
 
-#credit {
-  color: gray;
+#extras {
+  background-color: rgb(246, 170, 22);
+  color: black;
+  font-weight: 300;
+  padding: 25px;
+  width: 100%;
+}
 
-.metadata_list {padding:45px 0}
-.metadata_list ul{padding:0;margin:0}
-.metadata_list li{display:block;clear:both;border-color:#E4E4E4}
-.metadata_list-left{border-width:0 0 0 2px}
-.metadata_list-right{border-width:0 2px 0 0;margin:0 0 0 -2px;float:left;padding:5px 0 5px 10px;width:50%}
-.metadata_list-left{padding:5px 10px 5px 0;width:50%;float:left;clear:both}
-.metadata_list-left_item,.metadata_list-left_item-sml_bold{clear:both;display:block;margin:0 10px 0 0;font-weight:100;font-size:1.3rem;line-height:1.6rem;margin:0 0 4px 0;width:100%;text-align:right;text-transform:uppercase}
-.metadata_list-right_item,.metadata_list-right_item-sml_bold{display:block;clear:both;float:left;font-weight:200;font-size:1.3rem;line-height:1.6rem;margin:0 0 4px 0;width:100%}
-.metadata_list-left_item-sml_bold,.metadata_list-right_item-sml_bold{display:block;clear:both;font-weight:600;font-size:1.1rem;width:100%}
-.metadata_list-right_item-sml_bold{text-align:left}
-.metadata_list-left_item-sml_bold{text-align:right}
+
+#award {
+  color: white;
+  font-weight: 600;
+}
