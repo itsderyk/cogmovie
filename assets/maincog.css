@@ -39,7 +39,7 @@ body {
   height: 220px;
   background-repeat: no-repeat;
   background-size: cover;
-    margin: 0 auto;
+  
   }
   
 /* Text narrative */
@@ -78,12 +78,12 @@ body {
   display: none; 
 }
 
-#extras {
+#extras{
   background-color: rgb(246, 170, 22);
   color: black;
   font-weight: 300;
   padding: 25px;
-  width: 100%;
+  width: 100% ;
 }
 
 
@@ -91,3 +91,4 @@ body {
   color: white;
   font-weight: 600;
 }
+
